@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css/style.css" />
+    <title>Aloha Store</title>
+  </head>
+  <body>
+    <nav class="navbar" style="height: 80px">
+      <div class="navbar__logo">
+        <img
+          src="./resource/logo.jpg"
+          alt="Book logo"
+          style="width: 100px; height: auto"
+        />
+        <h3>
+          <div id="nav-location">
+            <label for="location">Location</label>
+            <select name="location" id="location">
+              <option value="vietnam">Vietnam</option>
+              <option value="usa">USA</option>
+              <option value="uk">UK</option>
+              <option value="china">China</option>
+              <option value="fance">France</option>
+            </select>
+          </div>
+        </h3>
+      </div>
+      <div class="mid">
+        <img
+          src="./resource/U1ntitled.png"
+          alt=""
+          style="height: 90px; width: 450px; display: flex"
+        />
+      </div>
+      <div class="navbar__options">
+        <div class="navbar__option">
+          <h4 style="color: black; margin-bottom: 10px">Search Book</h4>
+          <div id="nav-search">
+            <form
+              id="nav-search-bar-form"
+              accept-charset="UTF-8"
+              action=""
+              class="nav-search-book"
+              method="get"
+              name="site-search"
+              role="search"
+            >
+              <div class="nav-left">
+                <div id="nav-search-dropdown">
+                  <div class="nav-search-scope">
+                    <i class="nav-icon"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-fill">
+                <div
+                  class="nav-search-field"
+                  style="display: inline-block; vertical-align: middle"
+                >
+                  <label
+                    for="twotabsearchtextbox"
+                    style="display: none; margin-bottom: 10px"
+                    >Search Book</label
+                  >
+                  <input
+                    type="text"
+                    id="twotabsearchtextbox"
+                    value
+                    name="field-keywords"
+                    autocomplete="off"
+                    placeholder="Search Book"
+                    class="nav-input-attribute"
+                    dir="auto"
+                    tabindex="0"
+                    aria-label="Search Book"
+                    spellcheck="false"
+                  />
+                </div>
+                <div id="nav-iss-attach"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="navbar__option">
+          <h4 style="text-decoration: none">
+            <a href="./signin.html" style="text-decoration: none; color: black"
+              >Hello, sign in</a
+            >
+          </h4>
+        </div>
+        <div class="navbar__option navbar__option--account">
+          <h4>
+            <a href="" style="text-decoration: none; color: black"
+              >Account & Lists</a
+            >
+          </h4>
+        </div>
+      </div>
+    </nav>
+    <!-- -->
+    <div id="wrapper">
+      <div class="headline">
+        <h3>Best Seller</h3>
+      </div>
+      <ul class="products">
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <div style="position: relative; display: inline-block">
+                  <img
+                    src="./resource/A brief history of time.jpg"
+                    alt="Image"
+                  />
+                  <div
+                    style="
+                      position: absolute;
+                      top: 0;
+                      right: 0;
+                      background-color: red;
+                      color: white;
+                      border-radius: 50%;
+                      width: 50px;
+                      height: 50px;
+                      text-align: center;
+                      line-height: 50px;
+                    "
+                  >
+                    Sale
+                  </div>
+                </div>
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">A Brief History of Time</a>
+              <a href="" class="product-name"> Stephen Hawking</a>
+              <div class="product-price"><del>$29.99</del></div>
+              <p><span style="color: red">$17.97</span></p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <div style="position: relative; display: inline-block">
+                  <img src="./resource/A heartbreaking.jpg" alt="Image" />
+                  <div
+                    style="
+                      position: absolute;
+                      top: 0;
+                      right: 0;
+                      background-color: red;
+                      color: white;
+                      border-radius: 50%;
+                      width: 50px;
+                      height: 50px;
+                      text-align: center;
+                      line-height: 50px;
+                    "
+                  >
+                    Sale
+                  </div>
+                </div>
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat"
+                >A Heartbreaking Work of Staggering Genius</a
+              >
+              <a href="" class="product-name"> Dave Eggers</a>
+              <div class="product-price"><del>$15.58</del></div>
+              <p><span style="color: red">$9.50</span></p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <div style="position: relative; display: inline-block">
+                  <img src="./resource/diary of a wimpy kid.jpg" alt="Image" />
+                  <div
+                    style="
+                      position: absolute;
+                      top: 0;
+                      right: 0;
+                      background-color: red;
+                      color: white;
+                      border-radius: 50%;
+                      width: 50px;
+                      height: 50px;
+                      text-align: center;
+                      line-height: 50px;
+                    "
+                  >
+                    Sale
+                  </div>
+                </div>
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Diary of a Wimpy Kid</a>
+              <a href="" class="product-name">Jeff Kinney</a>
+              <div class="product-price"><del>$37.00</del></div>
+              <p><span style="color: red">$23.00</span></p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/Dune.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Dune</a>
+              <a href="" class="product-name">Frank Herbert</a>
+              <div class="product-price">10.00$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/Fahrenheit 451.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Fahrenheit 451</a>
+              <a href="" class="product-name"> Ray Bradbury</a>
+              <div class="product-price">8.89$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/the road.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">The Road</a>
+              <a href="" class="product-name"> Cormac McCarthy</a>
+              <div class="product-price">7.91$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/Gone girl.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Gone Girl</a>
+              <a href="" class="product-name">Gillian Flynn</a>
+              <div class="product-price">5.27$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/Long way gone.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Long Way Gone</a>
+              <a href="" class="product-name">Ishmael Beah</a>
+              <div class="product-price">2.99$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/Middlesex.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">Middlesex</a>
+              <a href="" class="product-name"> Jeffrey Eugenides</a>
+              <div class="product-price">11.27$</div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/moneyball.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat"
+                >Moneyball: The Art of Winning an Unfair Game</a
+              >
+              <a href="" class="product-name"> Michael Lewis </a>
+              <div class="product-price">11.29$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/of human.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat"
+                >Of Human Bondage (Bantam Classics)</a
+              >
+              <a href="" class="product-name"
+                >W. Somerset Maugham, Jane Smiley</a
+              >
+              <div class="product-price">5.95$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/right stuff.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">RIGHT STUFF </a>
+              <a href="" class="product-name">Tom Wolfe</a>
+              <div class="product-price">12.99$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/The Bad Beginning.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">The Bad Beginning: Or, Orphans!</a>
+              <a href="" class="product-name">Lemony Snicket, Brett Helquist</a>
+              <div class="product-price">7.90$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/the correction.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">The Corrections: A Novel</a>
+              <a href="" class="product-name">Jonathan Franzen</a>
+              <div class="product-price">17.97$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/The devil.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">The Devil in the White City</a>
+              <a href="" class="product-name"> Erik Larson</a>
+              <div class="product-price">7.90$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/the diary of a young girl.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">The Diary of a Young Girl</a>
+              <a href="" class="product-name"
+                >Anne Frank, Otto H. Frank, & 3 more</a
+              >
+              <div class="product-price">4.99$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thum">
+                <img src="./resource/the giver.jpg" alt="" />
+              </a>
+              <a href="./payment.html" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a
+                href="https://en.wikipedia.org/wiki/The_Giver"
+                class="product-cat"
+                >The Giver
+              </a>
+              <a
+                href="https://en.wikipedia.org/wiki/The_Giver"
+                class="product-name"
+              >
+                Lois Lowry</a
+              >
+              <div class="product-price">12.02$</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="./payment.html" class="product-thum">
+                <img src="./resource/the power broker.jpg" alt="" />
+              </a>
+              <a href="" class="buy-now">Buy now</a>
+            </div>
+            <div class="product-info">
+              <a href="" class="product-cat">The Power Broker</a>
+              <a href="" class="product-name"> Robert A. Caro</a>
+              <div class="product-price">18.13$</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="end">
+      <h2 style="margin-left: 20px"><strong>About Aloha :</strong></h2>
+      <p style="font-size: 10px; margin-left: 20px">
+        Aloha is an international online book selling company, we were granted a
+        sales license in 2018. Here we sell all types of books, allowing users
+        to try out books before buying. And we want to improve ourselves in
+        diligence and caution. All for a great legacy of books that have a long
+        life and are meaningful to many generations of readers.
+      </p>
+    </div>
+    <header style="height: 120px; background-color: #ebe6e6">
+      <div class="logo">
+        <img src="./resource/logo.jpg" alt="Logo" />
+      </div>
+      <form action="#" method="get">
+        <input
+          style="font-size: 14px"
+          type="text"
+          placeholder="Enter your giftcode"
+        />
+        <button type="submit">Enter</button>
+      </form>
+      <ul class="social-media-icons">
+        <li>
+          <a href="#"
+            ><img
+              src="./resource/fb2.png"
+              alt="Facebook"
+              style="background-color: #ebe6e6"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              style="background-color: #ebe6e6"
+              src="./resource/tw1.png"
+              alt="Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              style="background-color: #ebe6e6"
+              src="./resource/ig1.png"
+              alt="Instagram"
+          /></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li>
+          <a href="#">About Aloha</a>
+        </li>
+        <li><a href="#">Policy</a></li>
+        <li><a href="#">Payment methods</a></li>
+      </ul>
+      <ul class="payment-options">
+        <li>
+          <img
+            style="width: 200px"
+            src="./resource/394351827_1276350900431039_5851309830175239166_n.png"
+            alt="Visa"
+          />
+        </li>
+        <li>
+          <img src="./resource/shopping-cart.png" alt="Mastercard" />
+        </li>
+        <li><img src="./resource/home1-policy.png" alt="PayPal" /></li>
+      </ul>
+    </header>
+  </body>
+</html>
